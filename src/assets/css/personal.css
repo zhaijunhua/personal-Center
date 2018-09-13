@@ -1,0 +1,353 @@
+body{
+	background-color: #fff;
+	margin:0 auto;
+	padding: 0;
+	list-style:none;
+}
+
+.navbar-default {
+  background-color: #ffffff;
+  border-color: #fffff;
+}
+.navbar-brand {
+  color: #666;
+}
+
+
+.navbar-nav a{
+	color:#666;
+	background-color: #fff;
+}
+
+.navbar-nav a:hover{
+	color:#000;
+	background-color: #fff;
+}
+.navbar-nav li:hover{
+	background-color: #fff;
+}
+.navbar-collapse>.dropdown-toggle> li:hover .dropdown-menu {
+	display: block !important;
+}
+
+.drop-menu{
+	width:100px;
+}
+.nav .dropdown-menu>li{
+	float: left;
+
+}
+.navbar-toggle{
+	background-color: #000;
+}
+
+
+
+//设置搜素框样式
+
+.center-block{
+	position:absolute;
+	display:block;
+	margin-left: 200px;
+	background-color: orange !important;
+	width:400px !important;
+
+}
+
+
+input.form-control{
+	border:4px solid orange;
+	width:300px;
+}
+input.form-control:focus{
+	border-color: orange;
+	outline:none;
+	box-shadow:none;
+}
+
+
+.center-block .btn{
+	background-color: orange;
+	border:3px solid orange;
+	border-radius: 2px 15px 15px 2px;
+	border-color: orange;
+	
+}
+.center-block .btn:focus{  
+    outline: none !important;  
+    border-color: orange !important;  
+    box-shadow:0; 
+    border-radius: 2px 15px 15px 2px;  
+    background-color: orange !important;
+}  
+
+.center-block .btn:hover{
+	background-color: orange;
+	border-color: orange;
+
+}
+.center-block .btn:after{
+	background-color: orange;
+	border-color: orange;
+
+}
+
+
+//导航栏右边部分样式设置
+
+
+//侧边菜单设置
+//
+ .container{
+	height:700px;
+	width:200px;
+	background-color: #f9f9f9;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: 0;
+    margin-left: 0;
+    font-size: 0.2em;
+    font-family: '微软雅黑';
+}
+
+ .nav-pills > li >a{
+	color:#666;
+}
+.nav-pills >li.active{
+	background-color: #f9f9f9;
+}
+.nav-pills > li.active > a,
+.nav-pills > li.active > a:hover,
+.nav-pills > li.active > a:focus {
+  color: orange !important;
+  background-color: #f9f9f9 !important;
+}
+
+.nav-left{
+	width:200px;
+	color:orange;
+}
+.nav-left li{
+	padding:0;
+		width:200px;
+		background-color: #f9f9f9;
+}
+
+
+.userpic{
+	width:200px;
+	height: 220px;
+	background-color: #fff6f1;
+	//background-color: -webkit-gradient(linear, 0, 0, 100% ,0,from(#fff6f1), to(#ffd1b7));
+}
+
+.userpic .port {
+	width:50px;
+	height:50px;
+	position:relative;
+	margin-left: 78px;
+	top: 45px;
+	color:#666;
+	font-size:12px;
+}
+
+.userpic .port img{
+	width:45px;
+	height:45px;
+}
+.usersname{
+	//text-align: center;
+	position:relative;
+	top:60px;
+
+}
+
+
+
+.main-content{
+	position:absolute;
+	margin:0 auto;
+	//margin-top:-720px;
+	margin-left:300px;
+	top:80px;
+	width:800px;
+	
+	
+}
+.tab-pane{
+	position:relative;
+	top:20px;
+	left:10px;
+	
+	
+}
+/*VIP包括左右在右边显示栏的选项卡的样式*/
+
+.nav-tabs > li > a {
+  margin-right: 2px;
+  line-height: 1.42857143;
+  border: none;
+  border-radius: 4px 4px 0 0;
+  font-size: 2.0rem;
+  color:#666;
+  font-weight: '微软雅黑';
+}
+.nav-tabs > li > a:hover {
+  border:none;
+  background:#fff;
+  color:orange;
+}
+.contatine.nav-tabs > li.active > a,
+.container.nav-tabs > li.active > a:hover,
+.container.nav-tabs > li.active > a:focus {
+  color: orange;
+  cursor: default;
+  background-color: #fff;
+  border:2px solid #fff;
+  border-bottom-color: orange;
+}
+
+.vipuse{
+	white-space：nowrap
+	font-size:2.0rem;
+}
+.money{
+	border:1px solid #FE2E2E;
+	width:180px;
+	
+	font-family: '微软雅黑';
+}
+.money p{
+	position:relative;
+	margin-top: 50px;
+}
+.moneyNum{
+	text-align: center;
+	font-size: 2.0rem;
+	font-weight: bold;
+	font-size: 2.0rem;
+
+}
+
+.openVip{
+	background-color: #FE2E2E;
+	color:#fff;
+	width:180px;
+	height:50px;
+	border:none;
+	position:relative;
+	margin-top: 50px;
+}
+.number{
+	color:#fe2e2e;
+	font-size: 2.6rem;
+}
+.ipic{
+	font-size: 5.0rem;
+	color:#FE2E2E;
+}
+/*v币商城*/
+
+.shop .store .tab-pane{
+	position:relative;
+	margin-left:-10px;
+	margin-top: 20px;
+
+}
+
+
+/*历史记录*/
+#whistory{
+
+}
+
+.record-img{
+	width:384px;
+	height:200px;
+}
+.thumbnail{
+	background-color: #F2F2F2;
+	border:1px solid #000;
+}
+.thumbnail p{
+	color:#000;
+}
+
+
+
+/*开通会员*/
+.open{
+	position:relative;
+	margin-left: 60px;
+	top:85px;
+}
+.open .btn-default{
+	// position:relative;
+	background-color: #e3b54c;
+	border:none;
+	//top:85px;
+
+
+
+}
+.isVip{
+	position:relative;
+	margin-left: 80px;
+	top:85px;
+	border:none;
+	color:#e3b54c;
+	font-size: 16px;
+	font-family: '正楷';
+	font-weight:bold;
+}
+
+
+.shop img{
+	width:186px;
+	height:80px;
+}
+
+.store{
+	margin-left: -10px;
+	margin-top: 50px;
+}
+
+.store tr th{
+	width:200px;
+	height:200px;
+}
+
+
+.cart-content{
+	position:relative;
+
+	margin-top: 200px;
+	margin-left: 200px;
+}
+.cart{
+	font-family:'微软雅黑';
+	color:#ccc;
+	font-size: 24px;
+	font-weight:bold;
+
+}
+.hr1{
+	color:#666;
+	height:10px;
+}
+
+
+/*个人消息			*/
+
+
+
+.newalbum{
+	width:100px;
+	position:absolute;
+}
+.all{
+	position:relative;
+	margin-left:20px;
+}
+
+

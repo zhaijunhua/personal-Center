@@ -1,0 +1,309 @@
+body{
+	background-color: #fff;
+	margin:0 auto;
+	padding: 0;
+	list-style:none;
+}
+//去点淡蓝色边框
+// .btn:focus,
+// .btn:active:focus,
+// .btn.active:focus,
+// .btn.focus,
+// .btn:active.focus,
+// .btn.active.focus {
+//     outline: none;  
+//     background-color: orange;
+//     border-color: orange;        
+// }
+.container-fluid a{
+	color:#666;
+
+}
+.navbar-default{
+	background-color: #fff;
+	border:none;
+}
+
+.navbar-nav a:hover{
+	color:#000;
+	background-color: #fff;
+}
+.nav> li:hover .dropdown-menu {
+	display: block;
+}
+.drop-menu{
+	width:100px;
+}
+.nav .dropdown-menu>li{
+	float: left;
+
+}
+.navbar-toggle{
+	background-color: #000;
+}
+.nav navbar-nav a{
+	color:#666;
+}
+
+
+//设置搜素框样式
+.center-block{
+	display:block;
+	//margin-left: 100px;
+	background-color: orange !important;
+	width:500px;
+
+}
+
+
+input.form-control{
+	border:4px solid orange;
+	width:300px;
+}
+input.form-control:focus{
+	border-color: orange;
+	outline:none;
+	box-shadow:none;
+}
+
+
+.center-block .btn{
+	background-color: orange;
+	border:3px solid orange;
+	border-radius: 2px 15px 15px 2px;
+	border-color: orange;
+	
+}
+.center-block .btn:focus{  
+    outline: none !important;  
+    border-color: orange !important;  
+    box-shadow:0; 
+    border-radius: 2px 15px 15px 2px;  
+    background-color: orange !important;
+}  
+
+// .btn:after{
+// 	border-color: orange;
+// 	outline:none;
+// 	box-shadow:none;
+// 	background-color: orange;
+// 	border-color: orange;
+
+// }
+.center-block .btn:hover{
+	background-color: orange;
+	border-color: orange;
+
+}
+.center-block .btn:after{
+	background-color: orange;
+	border-color: orange;
+
+}
+
+
+//导航栏右边部分样式设置
+
+
+//侧边菜单设置
+//
+ .container{
+	height:700px;
+	width:200px;
+	background-color: #f9f9f9;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: 0;
+    margin-left: 0;
+    font-size: 0.2em;
+    font-family: '微软雅黑';
+}
+
+	.container ul li{
+		padding:0;
+		width:200px;
+		background-color: #f9f9f9;
+	}
+
+	.container ul li:hover{
+		background-color: #f9f9f9;
+	}
+	.container ul li a{
+			color:#666;
+		}
+	.container ul li a:hover{
+		color:orange;
+	}
+	.active{
+			background:#fff;
+		}
+
+
+.nav-left{
+	width:200px;
+}
+.nav-left{
+	color:orange;
+
+}
+.nav-left a:after{
+	color:orange;
+	background-color: #000;
+}
+
+
+.userpic{
+	width:200px;
+	height: 220px;
+	background-color: #fff6f1;
+	//background-color: -webkit-gradient(linear, 0, 0, 100% ,0,from(#fff6f1), to(#ffd1b7));
+}
+
+.userpic .port {
+	width:50px;
+	height:50px;
+	position:relative;
+	margin-left: 78px;
+	top: 45px;
+}
+
+.userpic .port img{
+	width:45px;
+	height:45px;
+}
+.usersname{
+	//text-align: center;
+	position:relative;
+	top:60px;
+
+}
+
+
+
+.main-content{
+	position:absolute;
+	margin:0 auto;
+	//margin-top:-720px;
+	margin-left:350px;
+	top:80px;
+	width:800px;
+	
+	
+}
+.tab-pane{
+	position:relative;
+	top:20px;
+	left:20px;
+	
+	
+}
+.nav-tabs {
+  border-bottom: 1px solid #ddd !important;
+}
+.nav-tabs > li > a {
+  margin-right: 2px;
+  line-height: 1.42857143;
+  border: none;
+  border-radius: 4px 4px 0 0;
+  font-size: 2.0rem;
+  color:#666;
+  font-family: '微软雅黑';
+}
+.nav-tabs > li > a:hover {
+  border:none;
+  background-color:#fff !important;
+  color:orange;
+  font-family: '微软雅黑';
+}
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:hover,
+.nav-tabs > li.active > a:focus {
+  color: orange !important;
+  cursor: default !important;
+  background-color: #fff !important;
+  border:2px solid #fff !important;
+  border-bottom-color: orange !important;
+}
+.tab-panp active{
+
+}
+
+
+/*历史记录*/
+#whistory{
+
+}
+
+.record-img{
+	width:384px;
+	height:200px;
+}
+
+
+
+
+.open{
+	position:relative;
+	margin-left: 60px;
+	top:85px;
+}
+.open .btn-default{
+	// position:relative;
+	background-color: #e3b54c;
+	border:none;
+	//top:85px;
+
+
+
+}
+
+.shop img{
+	width:186px;
+	height:80px;
+}
+
+
+
+
+
+
+/*
+//登录界面样式
+
+h3{
+	padding-bottom:10px;
+	margin:0 auto;
+
+	}
+#close{position:absolute;top:2px;right:2px;}
+#close span{padding:3px 10px;
+	background-color: #999;
+	font-size:20px;
+	color:white;
+	cursor:pointer;}
+.log{display: none;
+	 width: 100%;
+  	height: 100%; 
+  	padding: 30px 40px; 
+  	background-color: #000; 
+  	position: fixed; top: 0px;
+   	right: 0px;
+	opacity:0.8;
+	color:orange;
+}
+.log form{
+	
+
+}
+.enter{
+	width:300px;
+	margin:0 auto;
+	
+}
+
+.enter .btn-primary{
+	background-color: orange;
+	outline:none;
+	border；1px solid orange;
+
+}
